@@ -22,7 +22,7 @@ namespace PizzeriaRendeles
         }
         public override string ToString()
         {
-            return $"{VevoNev}: {PizzakSzama} db pizza, {TavolsagKm} km - Fizetendő: {FizetendoDij} Ft";
+            return $"{VevoNev}: {PizzakSzama} db pizza, {TavolsagKm} km - Fizetendő: {FizetendoDij()} Ft";
         }
     }
         
